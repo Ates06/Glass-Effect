@@ -1,0 +1,25 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.box{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('backgroundimage.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.glass{
+    width: 250px;
+    height: 250px;
+    border-radius: 7px;
+    backdrop-filter: blur(10px);
+    background: linear-gradient(100deg, rgb(0,0,0,.2),rgb(0,0,0,.2));
+    box-shadow: 0 10px 26px 0 rgb(0,0,0,.50);
+}
